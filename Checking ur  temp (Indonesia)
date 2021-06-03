@@ -1,0 +1,6 @@
+def cekKorona(suhu) :
+	if (36 < suhu < 39 ) :
+		print("Anda harus istirahat dan periksa ke dokter!")
+	else :
+		print("alhamdulillah anda sehat, tetap jaga protokol kesehatan ya!")
+cekKorona(35)
