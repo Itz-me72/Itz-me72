@@ -1,0 +1,13 @@
+print("masukan nama anda??")
+user_name = input()
+print("hello " + user_name)
+
+if user_name == "Itzme":
+	while 3 > 2:
+		input("anda adalah dev")
+		break
+elif user_name == "":
+	print("Masukan nama anda")
+else:
+	print("sampai jumpa, " + user_name + "! semoga hari kamu baik")
+input("jika sudah selesai bisa keluar")
